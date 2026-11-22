@@ -31,7 +31,7 @@ Reporting	Playwright JSON Reporter
 4. A Node.js backend connects to the Claude API.
 5. Users can request AI-generated recommendations for individual test results.
 
-Running Locally
+#### Running Locally
 
 Install dependencies and configure an Anthropic API key in a local .env file.
 
@@ -45,13 +45,13 @@ npm --prefix test-lens run dev
 
 Security: Keep API keys in environment variables. Never commit .env files or credentials to GitHub.
 
-Project Goals
+#### Project Goals
 
 TestLens was developed as a hands-on QA engineering portfolio project to explore test automation, report processing, frontend development, CI/CD, and practical AI integration.
 
 The project demonstrates how automated test results can become actionable information rather than static reports.
 
-Author
+#### Author
 
 William Daugherty
 QA Engineer | Test Automation | Playwright | TypeScript | Python
