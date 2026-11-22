@@ -1,4 +1,4 @@
-TestLens
+### TestLens
 
 An AI-assisted software testing dashboard built with Playwright, TypeScript, React, and the Anthropic Claude API.
 
