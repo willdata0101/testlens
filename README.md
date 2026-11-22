@@ -4,7 +4,7 @@ An AI-assisted software testing dashboard built with Playwright, TypeScript, Rea
 
 TestLens transforms automated test results into an interactive dashboard, combining execution metrics with AI-generated recommendations to help investigate failures and improve test coverage.
 
-Features
+#### Features
 
 * Cross-browser testing: Execute automated tests using Playwright across Chromium, Firefox, and WebKit.
 * Test execution dashboard: View total executions, passed and failed tests, and overall pass rate.
@@ -13,7 +13,7 @@ Features
 * JSON report integration: Parse Playwright test results and display them in React.
 * CI/CD integration: Run automated tests through GitHub Actions.
 
-Tech Stack
+#### Tech Stack
 
 Category	Technologies
 Test automation	Playwright, TypeScript
@@ -23,7 +23,7 @@ AI integration	Anthropic Claude API
 CI/CD	GitHub Actions
 Reporting	Playwright JSON Reporter
 
-How It Works
+#### How It Works
 
 1. Playwright executes automated browser tests.
 2. Test results are exported to JSON.
