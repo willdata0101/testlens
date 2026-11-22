@@ -35,7 +35,7 @@ Reporting	Playwright JSON Reporter
 
 1. Clone this repo into an appropriate location on your machine (PC or Mac).
    
-3. Install dependencies and configure an Anthropic API key in a local `.env` file.
+3. Install dependencies and configure an Anthropic API key in a local `.env` file containing: `ANTHROPIC_API_KEY=` followed by your API key, without quotation marks or any other formatting around it.
 
    Use the following commands for installation:
 
