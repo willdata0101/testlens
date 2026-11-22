@@ -36,6 +36,7 @@ Reporting	Playwright JSON Reporter
 1. Clone this repo into an appropriate location on your machine (PC or Mac).
    
 3. Install dependencies and configure an Anthropic API key in a local `.env` file. Use the following commands for installation:
+
    `npm install`
    
    `npm --prefix test-lens install`
