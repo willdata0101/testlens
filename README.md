@@ -34,8 +34,10 @@ Reporting	Playwright JSON Reporter
 #### Running Locally
 
 1. Clone this repo into an appropriate location on your machine (PC or Mac).
-2. Install dependencies and configure an Anthropic API key in a local `.env` file.
-3. Open a new terminal and `cd` into the cloned repo directory. Then, start the API server:
+2. Install dependencies and configure an Anthropic API key in a local `.env` file. Use the following commands foe installation:
+   `npm install`
+   `npm —-prefix test-lens install
+4. Open a new terminal and `cd` into the cloned repo directory. Then, start the API server:
 
    `npm run api`
 
