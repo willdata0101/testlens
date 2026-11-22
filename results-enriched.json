@@ -1,0 +1,3 @@
+{
+  "response": "**Summary:** The Chromium test \"Clearing an approved translation removes its approval\" failed because the approval checkbox was still checked (and disabled) when the test expected it to be unchecked.\n\n**Recommended next steps:** Check whether the app is meant to lock approved translations after clearing, since the checkbox is disabled, and confirm the clear action actually updates the approval state in the backend. Review the trace or screenshot to confirm the test is targeting the correct checkbox, and make the locator more specific (for example, by accessible name) if `getByRole('checkbox')` matches more than one element. If the behavior is correct, update the test to expect the disabled state; if not, fix the clear logic so it resets approval."
+}

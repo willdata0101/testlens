@@ -1,0 +1,407 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\willt\\translation-desk\\stanleys_tests\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "C:\\Users\\willt\\translation-desk\\stanleys_tests\\playwright.config.ts",
+    "rootDir": "C:/Users/willt/translation-desk/stanleys_tests/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/willt/translation-desk/stanleys_tests/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/willt/translation-desk/stanleys_tests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\willt\\translation-desk\\stanleys_tests\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "chromium",
+        "testDir": "C:\\Users\\willt\\translation-desk\\stanleys_tests\\tests",
+        "snapshotDir": "C:\\Users\\willt\\translation-desk\\stanleys_tests\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://localhost:4321",
+          "trace": "on-first-retry",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.8127.18 Safari/537.36",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "C:/Users/willt/testlens/test-lens/public/results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "starter.spec.ts",
+      "file": "starter.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "homepage loads successfully",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 880,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-22T21:25:27.316Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9d9a81385c08808ab7dd-e86c8bd98dafc0a2dcd9",
+          "file": "starter.spec.ts",
+          "line": 27,
+          "column": 1
+        },
+        {
+          "title": "Clicking \"Approve\" with empty translation field shows error",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30088,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-22T21:25:29.938Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\willt\\translation-desk\\stanleys_tests\\test-results\\starter-Clicking-Approve-w-5a8e3-anslation-field-shows-error-chromium\\error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "9d9a81385c08808ab7dd-e91a2110f145862fd71a",
+          "file": "starter.spec.ts",
+          "line": 37,
+          "column": 1
+        },
+        {
+          "title": "Checkbox remains stationary",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 942,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Initially approved: \u001b[33mtrue\u001b[39m\n"
+                    },
+                    {
+                      "text": "Approved after clearing: \u001b[33mtrue\u001b[39m\n"
+                    },
+                    {
+                      "text": "Disabled after clearing: \u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "Movement 1: \u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "Movement 2: \u001b[33m0\u001b[39m\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-22T21:26:01.863Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9d9a81385c08808ab7dd-d82e3b0ffbb6df609726",
+          "file": "starter.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "Project still present on clicking Cancel after clicking \"Delete Project\"",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 570,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "confirm\n"
+                    },
+                    {
+                      "text": "Delete “Cancel deletion 1795382763305” and its stored original from this Mac? This can't be undone.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-22T21:26:03.092Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9d9a81385c08808ab7dd-bee39dac410f6ad4df6e",
+          "file": "starter.spec.ts",
+          "line": 126,
+          "column": 1
+        },
+        {
+          "title": "Project deleted on clicking \"Delete Project\" then OK",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 971,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "confirm\n"
+                    },
+                    {
+                      "text": "Delete “Empty field error 1795382763912” and its stored original from this Mac? This can't be undone.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-22T21:26:03.681Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9d9a81385c08808ab7dd-9548b04d488486198897",
+          "file": "starter.spec.ts",
+          "line": 146,
+          "column": 1
+        },
+        {
+          "title": "Clearing an approved translation removes its approval",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5758,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoBeChecked\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('checkbox')\nExpected: not checked\nReceived: checked\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"not toBeChecked\" getByRole('checkbox') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('checkbox')\u001b[22m\n\u001b[2m    2 × locator resolved to <input checked type=\"checkbox\"/>\u001b[22m\n\u001b[2m      - unexpected value \"checked\"\u001b[22m\n\u001b[2m    12 × locator resolved to <input checked disabled type=\"checkbox\"/>\u001b[22m\n\u001b[2m       - unexpected value \"checked\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoBeChecked\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('checkbox')\nExpected: not checked\nReceived: checked\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"not toBeChecked\" getByRole('checkbox') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('checkbox')\u001b[22m\n\u001b[2m    2 × locator resolved to <input checked type=\"checkbox\"/>\u001b[22m\n\u001b[2m      - unexpected value \"checked\"\u001b[22m\n\u001b[2m    12 × locator resolved to <input checked disabled type=\"checkbox\"/>\u001b[22m\n\u001b[2m       - unexpected value \"checked\"\u001b[22m\n\n    at C:\\Users\\willt\\translation-desk\\stanleys_tests\\tests\\starter.spec.ts:190:32",
+                    "location": {
+                      "file": "C:\\Users\\willt\\translation-desk\\stanleys_tests\\tests\\starter.spec.ts",
+                      "column": 32,
+                      "line": 190
+                    },
+                    "snippet": " \u001b[90m 188 |\u001b[39m     \u001b[36mawait\u001b[39m translationBox\u001b[33m.\u001b[39mpress(\u001b[32m'Tab'\u001b[39m)\n \u001b[90m 189 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 190 |\u001b[39m     \u001b[36mawait\u001b[39m expect(checkbox)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeChecked()\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 191 |\u001b[39m\n \u001b[90m 192 |\u001b[39m })"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\willt\\translation-desk\\stanleys_tests\\tests\\starter.spec.ts",
+                        "column": 32,
+                        "line": 190
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoBeChecked\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('checkbox')\nExpected: not checked\nReceived: checked\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"not toBeChecked\" getByRole('checkbox') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('checkbox')\u001b[22m\n\u001b[2m    2 × locator resolved to <input checked type=\"checkbox\"/>\u001b[22m\n\u001b[2m      - unexpected value \"checked\"\u001b[22m\n\u001b[2m    12 × locator resolved to <input checked disabled type=\"checkbox\"/>\u001b[22m\n\u001b[2m       - unexpected value \"checked\"\u001b[22m\n\n\n \u001b[90m 188 |\u001b[39m     \u001b[36mawait\u001b[39m translationBox\u001b[33m.\u001b[39mpress(\u001b[32m'Tab'\u001b[39m)\n \u001b[90m 189 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 190 |\u001b[39m     \u001b[36mawait\u001b[39m expect(checkbox)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeChecked()\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 191 |\u001b[39m\n \u001b[90m 192 |\u001b[39m })\n\u001b[2m    at C:\\Users\\willt\\translation-desk\\stanleys_tests\\tests\\starter.spec.ts:190:32\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-22T21:26:04.676Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\willt\\translation-desk\\stanleys_tests\\test-results\\starter-Clearing-an-approv-bef25-lation-removes-its-approval-chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\willt\\translation-desk\\stanleys_tests\\tests\\starter.spec.ts",
+                    "column": 32,
+                    "line": 190
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "9d9a81385c08808ab7dd-d1bb96b0724f2b9e1ad2",
+          "file": "starter.spec.ts",
+          "line": 173,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-22T21:25:25.790Z",
+    "duration": 44884.261,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

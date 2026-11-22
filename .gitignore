@@ -6,3 +6,11 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# env files
+.env
+.env.*
+
+
+# secrets
+claude_api_keys.txt
