@@ -37,7 +37,7 @@ Reporting	Playwright JSON Reporter
    
 3. Install dependencies and configure an Anthropic API key in a local `.env` file.
 
-Use the following commands for installation:
+   Use the following commands for installation:
 
    `npm install`
    
